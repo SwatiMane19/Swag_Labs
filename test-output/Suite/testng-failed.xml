@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Functional Testing on chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="test.ValidatingLoginFunctionality">
+        <methods>
+          <include name="verifyLoginWithlocked_out_user"/>
+          <include name="BrowserLaunching"/>
+          <include name="setUpReports"/>
+          <include name="verifyLoginWithperformance_glitch_user"/>
+          <include name="verifyLoginWithproblem_user"/>
+          <include name="publishReports"/>
+          <include name="verifyLoginWithstandard_user"/>
+          <include name="getTestResult"/>
+        </methods>
+      </class> <!-- test.ValidatingLoginFunctionality -->
+      <class name="test.TestCasesForFunctionalityOfSwagLabs">
+        <methods>
+          <include name="RemoveMultipleProductsFromCart"/>
+          <include name="BrowserLaunching"/>
+          <include name="addProductOnCart"/>
+          <include name="removeProductFromCart"/>
+          <include name="getTestResult"/>
+          <include name="verifyLogInFunctionality"/>
+          <include name="publishReports"/>
+          <include name="addMultipleProductToCart"/>
+          <include name="setupReports"/>
+          <include name="VerifyChekoutFunctionality"/>
+        </methods>
+      </class> <!-- test.TestCasesForFunctionalityOfSwagLabs -->
+    </classes>
+  </test> <!-- Functional Testing on chrome(failed) -->
+  <test thread-count="5" name="Functional Testing on firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="test.ValidatingLoginFunctionality">
+        <methods>
+          <include name="verifyLoginWithlocked_out_user"/>
+          <include name="BrowserLaunching"/>
+          <include name="setUpReports"/>
+          <include name="verifyLoginWithperformance_glitch_user"/>
+          <include name="verifyLoginWithstandard_user"/>
+          <include name="publishReports"/>
+          <include name="verifyLoginWithproblem_user"/>
+          <include name="getTestResult"/>
+        </methods>
+      </class> <!-- test.ValidatingLoginFunctionality -->
+      <class name="test.TestCasesForFunctionalityOfSwagLabs">
+        <methods>
+          <include name="RemoveMultipleProductsFromCart"/>
+          <include name="BrowserLaunching"/>
+          <include name="removeProductFromCart"/>
+          <include name="addProductOnCart"/>
+          <include name="getTestResult"/>
+          <include name="verifyLogInFunctionality"/>
+          <include name="publishReports"/>
+          <include name="addMultipleProductToCart"/>
+          <include name="setupReports"/>
+          <include name="VerifyChekoutFunctionality"/>
+        </methods>
+      </class> <!-- test.TestCasesForFunctionalityOfSwagLabs -->
+    </classes>
+  </test> <!-- Functional Testing on firefox(failed) -->
+  <test thread-count="5" name="Regration Testing on chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="test.ValidatingLoginFunctionality">
+        <methods>
+          <include name="verifyLoginWithlocked_out_user"/>
+          <include name="BrowserLaunching"/>
+          <include name="setUpReports"/>
+          <include name="verifyLoginWithperformance_glitch_user"/>
+          <include name="publishReports"/>
+          <include name="verifyLoginWithproblem_user"/>
+          <include name="verifyLoginWithstandard_user"/>
+          <include name="getTestResult"/>
+        </methods>
+      </class> <!-- test.ValidatingLoginFunctionality -->
+    </classes>
+  </test> <!-- Regration Testing on chrome(failed) -->
+  <test thread-count="5" name="Regration Testing on firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="test.ValidatingLoginFunctionality">
+        <methods>
+          <include name="verifyLoginWithlocked_out_user"/>
+          <include name="BrowserLaunching"/>
+          <include name="setUpReports"/>
+          <include name="verifyLoginWithperformance_glitch_user"/>
+          <include name="verifyLoginWithstandard_user"/>
+          <include name="publishReports"/>
+          <include name="verifyLoginWithproblem_user"/>
+          <include name="getTestResult"/>
+        </methods>
+      </class> <!-- test.ValidatingLoginFunctionality -->
+    </classes>
+  </test> <!-- Regration Testing on firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
